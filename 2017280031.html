@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alper KOnuk 2017280031</title>
+		<script type="text/javascript">
+		function add()
+		{
+			var a =document.getElementById("Metin Kutusu 1").value;
+			var b=document.getElementById("Metin Kutusu 2").value;
+			alert(parseInt(a)+parseInt(b));
+			
+			var c=document.getElementById("id3").value;
+			var d=document.getElementById("id4").value;
+			alert(c+d);
+			
+		}
+		
+		</script>
+    </head>
+    <body>
+        <label>1. Sayı : </label>
+            <input type="text" id="Metin Kutusu 1"><br><br>
+            <label>2. Sayı : </label>
+            <input type="text" id="Metin Kutusu 2"><br><br>
+            <button onclick="add()">topla</button>
+			<br><br>
+<label for="id3">Metin kutusu 3</label>
+<input type="text" id="id3" /> 
+<br>
+<label for="id4">Metin kutusu 4</label>
+<input type="text" id="id4" /> 
+<br><br>
+<button onclick="add()">yapıştır</button>
+           
+        
+    </body>
+</html>
